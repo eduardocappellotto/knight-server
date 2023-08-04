@@ -13,6 +13,6 @@ async function bootstrap() {
 
   // Enable validation pipe with detailed error messages
   app.useGlobalPipes(new ValidationPipe());
-  await app.listen(3000);
+  await app.listen(process.env.PORT, '0.0.0.0');
 }
 bootstrap();

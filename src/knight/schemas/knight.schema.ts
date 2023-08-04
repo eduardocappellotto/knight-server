@@ -1,9 +1,11 @@
 import { Schema, Prop, SchemaFactory } from '@nestjs/mongoose';
 import { Attributes } from './attributes.schema';
 import { Weapon, WeaponSchema } from './weapon.schema';
-import { IsNotEmpty, IsString, IsArray, ArrayMinSize, ValidateNested } from 'class-validator';
+import { IsNotEmpty, IsString, IsArray, ArrayMinSize, ValidateNested, isNotEmpty, isString } from 'class-validator';
 
 import { HasOneEquippedWeapon } from '../../utils/hasOneEquippedWeapon'; // Update the path as per your project structure
+
+type KeyOfAttributes = keyof Attributes;
 
 @Schema()
 export class Knight {
@@ -34,6 +36,11 @@ export class Knight {
     @IsNotEmpty()
     @ValidateNested()
     attributes: Attributes;
+
+    @Prop({ required: true })
+    @IsNotEmpty()
+    @IsString()
+    keyAttribute: KeyOfAttributes;
 
     @Prop({ default: false })
     deleted: boolean; // Add a new field to indicate if the knight is deleted

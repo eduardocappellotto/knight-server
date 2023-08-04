@@ -8,7 +8,7 @@ import { KnightRepository } from '../repositories/knight.repository';
 export class KnightService {
     constructor(private readonly knightRepository: KnightRepository) { }
 
-    async findAllKnights(page: number = 1, pageSize: number = 10): Promise<Knight[]> {
+    async findAllKnights(page: number = 1, pageSize: number = 999): Promise<Knight[]> {
         const skip = (page - 1) * pageSize;
         return this.knightRepository.findAllKnights(pageSize, skip);
     }

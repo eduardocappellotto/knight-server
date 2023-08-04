@@ -1,26 +1,29 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Knights Back-end 👑🛡️
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Esse é o frontend simples para gerenciar os nossos bravos cavaleiros! Aqui você pode ver a lista de cavaleiros, adicionar novos, atualizar os existentes e até mesmo deletar os mais valentes. 🦸‍♂️💪
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Funcionalidades 🚀
+
+- Ver a lista de cavaleiros
+- Adicionar novos cavaleiros
+- Atualizar informações de cavaleiros
+- Deletar bravos cavaleiros
+
+## Deploy 🌐
+
+O frontend foi hospedado no Netlify e você pode acessá-lo aqui ➡️ [https://cappelloto-knights.netlify.app/#/](https://cappelloto-knights.netlify.app/#/). Vá lá e confira a glória dos nossos cavaleiros! 🏰⚔️
+
+O backend também está no ar e você pode acessá-lo aqui ➡️ [https://knight-server-production.up.railway.app/](https://knight-server-production.up.railway.app/). Lá você pode encontrar os segredos e mistérios que guiam os nossos corajosos guerreiros. 🏴󠁧󠁢󠁥󠁮󠁧󠁿🏰
+
+## Por que Quasar? 🤔
+
+Quasar foi escolhido para esse projeto pela agilidade e facilidade de uso. Com ele, foi possível desenvolver rapidamente e adicionar toques personalizados para deixar nossos cavaleiros ainda mais especiais. 🚀💨
+
+## Conclusão 🏁
+
+Esse projeto nos deu a oportunidade de revisitar o poderoso Nest.js, um framework maravilhoso em Node.js com Typescript. Combinando Quasar, Vue 3, Typescript e Pinia, tivemos uma experiência de desenvolvimento muito agradável. 👍🎉
+
+Sinta-se à vontade para explorar o frontend e o backend, e mergulhar no universo dos nossos corajosos cavaleiros! 🐴🌟
 
 ## Description
 

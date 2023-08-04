@@ -15,9 +15,23 @@ O frontend foi hospedado no Netlify e você pode acessá-lo aqui ➡️ [https:/
 
 O backend também está no ar e você pode acessá-lo aqui ➡️ [https://knight-server-production.up.railway.app/](https://knight-server-production.up.railway.app/). Lá você pode encontrar os segredos e mistérios que guiam os nossos corajosos guerreiros. 🏴󠁧󠁢󠁥󠁮󠁧󠁿🏰
 
-## Por que Quasar? 🤔
+🦁🌐 Por que Nest.js e MongoDB para o Backend? 🍃🦕
 
-Quasar foi escolhido para esse projeto pela agilidade e facilidade de uso. Com ele, foi possível desenvolver rapidamente e adicionar toques personalizados para deixar nossos cavaleiros ainda mais especiais. 🚀💨
+Nest.js e MongoDB foram escolhidos para o backend deste projeto pelos seguintes motivos:
+
+1. **Nest.js - Framework Poderoso e Organizado**: Nest.js é um framework Node.js que oferece uma arquitetura modular e organizada. Ele usa o padrão de arquitetura de aplicativo (AOP) e permite a criação de aplicativos escaláveis e robustos, facilitando a manutenção e extensão futura.
+
+2. **Typescript - Segurança e Clareza de Código**: O uso do Typescript no Nest.js traz segurança de tipos ao código e ajuda a evitar erros comuns em tempo de desenvolvimento. Além disso, o Typescript fornece uma experiência mais clara e legível para o desenvolvedor.
+
+3. **Mongoose - Facilidade com MongoDB**: O Mongoose é um ODM (Object Data Modeling) para MongoDB. Ele simplifica a integração e interação com o MongoDB, oferecendo recursos poderosos, como validação de esquema, mapeamento de objetos e consultas mais complexas.
+
+4. **MongoDB - Banco de Dados Flexível e Escalável**: MongoDB é um banco de dados NoSQL baseado em documentos, que oferece uma estrutura flexível para armazenar dados. Ele é altamente escalável e permite a criação de esquemas dinâmicos, tornando-o adequado para aplicativos com requisitos de mudança constante.
+
+5. **Facilidade de Migração e Deployment**: Tanto o Nest.js quanto o MongoDB oferecem facilidade de migração e deployment. O Nest.js possui suporte integrado para gerenciamento de configurações e ambientes, tornando mais simples a configuração para diferentes ambientes de implantação. Já o MongoDB possui opções flexíveis para hospedagem em nuvem, facilitando o deployment da aplicação em diferentes plataformas.
+
+6. **Aprendizado e Bagagem**: O desenvolvedor já tinha experiência com Nest.js, o que ajudou na agilidade do desenvolvimento e aproveitamento de boas práticas. Além disso, a bagagem e conhecimento prévio em MongoDB também influenciaram a escolha para a construção do backend.
+
+Em resumo, Nest.js e MongoDB ofereceram um conjunto poderoso e eficiente de ferramentas para construir o backend deste projeto. A combinação entre um framework bem organizado e um banco de dados flexível permitiu o desenvolvimento de um backend robusto, escalável e fácil de manter. 🚀🌟
 
 ## Conclusão 🏁
 

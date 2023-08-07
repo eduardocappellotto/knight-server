@@ -1,6 +1,6 @@
 # Knights Back-end 👑🛡️
 
-Esse é o frontend simples para gerenciar os nossos bravos cavaleiros! Aqui você pode ver a lista de cavaleiros, adicionar novos, atualizar os existentes e até mesmo deletar os mais valentes. 🦸‍♂️💪
+Esse é o backend simples em Nest.js e Typescript para gerenciar os nossos bravos cavaleiros! Aqui você pode ver a lista de cavaleiros, adicionar novos, atualizar os existentes e até mesmo deletar os mais valentes. 🦸‍♂️💪
 
 ## Funcionalidades 🚀
 

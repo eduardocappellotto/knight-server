@@ -43,10 +43,13 @@ export class Knight {
     keyAttribute: KeyOfAttributes;
 
     @Prop({ default: false })
-    deleted: boolean; // Add a new field to indicate if the knight is deleted
+    deleted: boolean;
+
+    @Prop({ required: false })
+    _id: string;
 
     @Prop({ default: null })
-    deletedAt: Date; // Add a new field to store the timestamp when the knight was deleted
+    deletedAt: Date | null;
 }
 
 export const KnightSchema = SchemaFactory.createForClass(Knight);

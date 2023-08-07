@@ -1,5 +1,3 @@
-// src/knight/schemas/weapon.schema.ts
-
 import { Schema, Prop, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 
@@ -7,6 +5,9 @@ import { Document } from 'mongoose';
 export class Weapon {
     @Prop({ required: true })
     name: string;
+
+    @Prop({ default: null })
+    _id: string;
 
     @Prop({ required: true })
     mod: number;

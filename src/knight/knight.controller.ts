@@ -12,10 +12,13 @@ export class KnightController {
         try {
             if (filter === 'heroes') {
                 const heroes = await this.knightService.findHeroes();
-                return { status: 'success', message: 'Heroes fetched successfully', data: heroes, count: heroes.length };
+                console.log(heroes)
+
+                return { status: 'success', message: 'Heroes fetched successfully', data: heroes, count: heroes.length ? heroes.length : 0 };
             } else {
                 const knights = await this.knightService.findAllKnights();
-                return { status: 'success', message: 'Knights fetched successfully', data: knights, count: knights.length };
+                console.log(knights)
+                return { status: 'success', message: 'Knights fetched successfully', data: knights, count: knights.length ? knights.length : 0 };
             }
         } catch (error) {
             return { status: 'error', message: 'Failed to fetch knights', data: null };

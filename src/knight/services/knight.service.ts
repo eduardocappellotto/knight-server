@@ -1,5 +1,3 @@
-// src/knight/services/knight.service.ts
-
 import { Injectable } from '@nestjs/common';
 import { Knight } from '../schemas/knight.schema';
 import { KnightRepository } from '../repositories/knight.repository';

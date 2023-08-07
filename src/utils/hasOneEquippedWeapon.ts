@@ -1,5 +1,3 @@
-// src/common/hasOneEquippedWeapon.ts
-
 import { registerDecorator, ValidationOptions, ValidationArguments } from 'class-validator';
 
 export function HasOneEquippedWeapon(validationOptions?: ValidationOptions) {
